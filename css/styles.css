@@ -495,6 +495,12 @@ Gallery
   height: 17rem;
   object-fit: cover;
 }
+.gallery-img-container:hover .gallery-icon {
+  opacity: 1;
+}
+.gallery-img-container:hover .gallery-img {
+  opacity: 0.7;
+}
 /*
 =============== 
 Footer
