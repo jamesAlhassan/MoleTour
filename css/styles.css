@@ -501,6 +501,15 @@ Gallery
 .gallery-img-container:hover .gallery-img {
   opacity: 0.7;
 }
+@media screen and (min-width: 768px) {
+  .gallery-center {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .gallery-img-container {
+    flex: 0 0 50%;
+  }
+}
 /*
 =============== 
 Footer
