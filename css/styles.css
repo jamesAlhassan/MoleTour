@@ -446,6 +446,15 @@ Contact
 .form-control::placeholder {
   color: inherit;
 }
+.submit-btn {
+  margin-left: 0.5rem;
+  font-family: var(--ff-primary);
+  background: var(--clr-primary-8);
+  color: var(--clr-primary-1);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
 /*
 =============== 
 Gallery
