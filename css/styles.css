@@ -371,6 +371,7 @@ Featured Tours
 .tour-info {
   padding: 1.25rem 1.5rem;
 }
+
 .tour-footer {
   display: flex;
   justify-content: space-between;
@@ -381,9 +382,10 @@ Featured Tours
 .tour-footer p {
   text-transform: capitalize;
   color: var(--clr-primary-5);
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   line-height: 0;
 }
+
 .tour-btn {
   text-align: center;
 }
