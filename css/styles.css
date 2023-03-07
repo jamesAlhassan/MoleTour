@@ -403,6 +403,11 @@ Featured Tours
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .tour-card {
+    flex: 0 0 calc(25% - 1rem);
+  }
+}
 /*
 =============== 
 Contact
