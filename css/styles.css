@@ -341,7 +341,33 @@ Services
 Featured Tours
 ===============
 */
-
+.tour-card {
+  background: var(--clr-grey-10);
+  transition: var(--transition);
+  box-shadow: var(--light-shadow);
+  margin-bottom: 2rem;
+}
+.tour-card:hover {
+  transform: scale(1.02);
+  box-shadow: var(--dark-shadow);
+}
+.tour-img-container {
+  position: relative;
+}
+.tour-date {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 0;
+  background: var(--clr-primary-8);
+  color: var(--clr-grey-1);
+  text-transform: capitalize;
+  padding: 0.25rem 0.5rem;
+}
+.tour-img {
+  height: 25rem;
+  object-fit: cover;
+}
 /*
 =============== 
 Contact
