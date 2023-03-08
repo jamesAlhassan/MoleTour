@@ -533,3 +533,11 @@ Footer
   margin-bottom: 1.5rem;
   flex-wrap: wrap;
 }
+
+.footer-link {
+  color: var(--clr-white);
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-right: 1rem;
+  transition: var(--transition);
+}
