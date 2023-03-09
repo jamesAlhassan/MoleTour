@@ -452,6 +452,7 @@ Featured Tours
 }
 .tour-img {
   height: 25rem;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 .tour-info {
@@ -529,6 +530,18 @@ Contact
   border: transparent;
   background: var(--clr-white);
 }
+.form-control::-webkit-input-placeholder {
+  color: inherit;
+}
+.form-control::-moz-placeholder {
+  color: inherit;
+}
+.form-control:-ms-input-placeholder {
+  color: inherit;
+}
+.form-control::-ms-input-placeholder {
+  color: inherit;
+}
 .form-control::placeholder {
   color: inherit;
 }
@@ -579,6 +592,7 @@ Gallery
 }
 .gallery-img {
   height: 17rem;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 .gallery-img-container:hover .gallery-icon {
